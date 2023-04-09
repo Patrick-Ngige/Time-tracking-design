@@ -1,2 +1,2 @@
 # Time-tracking-design
-Creating a time-tracking desktop design using HTML and CSS
+Creating a time-tracking desktop design Grid using HTML and CSS
