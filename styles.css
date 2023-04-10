@@ -1,0 +1,117 @@
+*{
+    font-family: 'Rubik', sans-serif;
+    font-size: 62.5%;
+    /* background-color: hsl(226, 43%, 10%); */
+    color: #FAFAFA;
+    box-sizing: border-box;
+}
+
+img{
+    width: 45% ;
+    height: auto;
+    border: 3px solid #FAFAFA ;
+    border-radius: 50%;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35% 35%;
+    grid-template-areas: 
+    'user-card work play study'
+    'user-card exercise social self-care';
+    gap: 1rem;
+    width: 50%;
+    margin: 15% auto;
+}
+.user-card{
+    grid-area: user-card;
+    /* background-color: #6715ff; */
+}
+#user-card-top{
+    background-color: #6715ff ;
+    border-radius: 20px;
+    font-size: 3rem;
+    padding: 0.75em;
+    position: relative;
+    z-index: 2;
+} 
+#user-card-top span{
+    display: block;
+}
+.report-for{
+    color:  #CCCCFF ;
+    font-size: 1.4em;
+}
+#user-card-btn{
+    background-color: #191978;
+    border-radius: 1.6rem;
+    padding: 2em 2em 1em 2em;
+    font-size: 1.8rem;
+    position: relative;
+    top: -2.6rem;
+    height: 39%;
+    cursor: pointer;
+}
+#user-card-btn p:hover{
+    color: #5858b4;
+}
+.grid-item-parent{
+    border-radius: 1.6rem;
+}
+.grid-item{
+    position: relative;
+    height: 80%;
+    bottom: -20%;
+    background-color: hsl(235, 46%, 20%) ;
+    border-radius: 1.6rem;
+}
+.grid-item-row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 0.5em 1.5em ;
+}
+.grid-item-row2{
+    font-size: 4rem;
+    margin-bottom: 2.5em;
+    padding-left: 0.5em;
+}
+.grid-item-row2 span{
+    font-size: 0.9rem;
+    display: block;
+    opacity: 0.6;
+    margin-top: 1rem;
+}
+.work{
+    grid-area: work;
+    background-color: #ff7418 ;
+}
+.play{ 
+    grid-area: play;
+    background-color: #1ec3f5 ;
+}
+.study{
+    grid-area: study;
+    background-color: rgb(255, 41, 41) ;
+}
+.exercise{
+    grid-area: exercise;
+    background-color: rgb(83, 248, 83) ;
+}
+.social{
+    grid-area: social;
+    background-color: #7F00FF;
+}
+.self-care{
+    grid-area: self-care;
+    background-color: rgb(255, 255, 95) ;
+}
+
+
+
+/* font-color-purple: #CCCCFF;
+    font-color-purple-user: #5D3FD3;
+    font-color-white: #FAFAFA
+    background-blue-hover: #5858b4;
+    */
