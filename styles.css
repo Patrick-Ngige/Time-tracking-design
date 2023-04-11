@@ -1,7 +1,7 @@
 *{
     font-family: 'Rubik', sans-serif;
     font-size: 62.5%;
-    /* background-color: hsl(226, 43%, 10%); */
+    background-color: hsl(226, 43%, 10%);
     color: #FAFAFA;
     box-sizing: border-box;
 }
@@ -14,7 +14,7 @@ img{
 }
 .grid-container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 170px 1fr 1fr 1fr;
     grid-template-rows: 35% 35%;
     grid-template-areas: 
     'user-card work play study'
@@ -25,7 +25,8 @@ img{
 }
 .user-card{
     grid-area: user-card;
-    /* background-color: #6715ff; */
+    background-color: #6715ff;
+    border-radius: 20px ;
 }
 #user-card-top{
     background-color: #6715ff ;
@@ -38,18 +39,23 @@ img{
 #user-card-top span{
     display: block;
 }
+#name{
+    display: block;
+    font-size: 17px;
+    margin-top: -10px;
+}
 .report-for{
     color:  #CCCCFF ;
-    font-size: 1.4em;
+    font-size: 10px;
 }
 #user-card-btn{
-    background-color: #191978;
+    background-color: hsl(235, 46%, 20%);
     border-radius: 1.6rem;
-    padding: 2em 2em 1em 2em;
+    padding: 3em 2em 1em 2em;
     font-size: 1.8rem;
     position: relative;
     top: -2.6rem;
-    height: 39%;
+    height: 49%;
     cursor: pointer;
 }
 #user-card-btn p:hover{
@@ -74,7 +80,7 @@ img{
 }
 .grid-item-row2{
     font-size: 4rem;
-    margin-bottom: 2.5em;
+    margin-bottom: 2.8em;
     padding-left: 0.5em;
 }
 .grid-item-row2 span{
