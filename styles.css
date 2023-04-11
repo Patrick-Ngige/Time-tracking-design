@@ -1,8 +1,8 @@
 *{
     font-family: 'Rubik', sans-serif;
     font-size: 62.5%;
-    background-color: hsl(226, 43%, 10%);
-    color: #FAFAFA;
+    /* background-color: #f51e1e; 
+    color: #FAFAFA; */
     box-sizing: border-box;
 }
 
@@ -11,6 +11,13 @@ img{
     height: auto;
     border: 3px solid #FAFAFA ;
     border-radius: 50%;
+}
+.main-container{
+    background-color: hsl(226, 67%, 14%);
+    height: 70vh;
+    width: 50%;
+    border-radius: 15px;
+    margin: 10% 10% 10% 25%;
 }
 .grid-container{
     display: grid;
@@ -21,11 +28,14 @@ img{
     'user-card exercise social self-care';
     gap: 1rem;
     width: 50%;
-    margin: 15% auto;
+    margin: 5%;
+    padding: 18% 10% 10% 15%;
+    color: #FAFAFA;
+    /* background-color: #1ec3f5 ; */
+
 }
 .user-card{
     grid-area: user-card;
-    background-color: #6715ff;
     border-radius: 20px ;
 }
 #user-card-top{
@@ -55,7 +65,7 @@ img{
     font-size: 1.8rem;
     position: relative;
     top: -2.6rem;
-    height: 49%;
+    height: 50%;
     cursor: pointer;
 }
 #user-card-btn p:hover{
