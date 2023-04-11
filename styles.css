@@ -14,8 +14,8 @@ img{
 }
 .main-container{
     background-color: hsl(226, 67%, 14%);
-    height: 70vh;
-    width: 50%;
+    height: 100vh;
+    width: 60%;
     border-radius: 15px;
     margin: 10% 10% 10% 25%;
 }
@@ -29,7 +29,7 @@ img{
     gap: 1rem;
     width: 50%;
     margin: 5%;
-    padding: 18% 10% 10% 15%;
+    padding: 18% 10% 10% 10%;
     color: #FAFAFA;
     /* background-color: #1ec3f5 ; */
 
@@ -39,7 +39,7 @@ img{
     border-radius: 20px ;
 }
 #user-card-top{
-    background-color: #6715ff ;
+    background-color: hsl(264, 64%, 52%);
     border-radius: 20px;
     font-size: 3rem;
     padding: 0.75em;
@@ -65,7 +65,7 @@ img{
     font-size: 1.8rem;
     position: relative;
     top: -2.6rem;
-    height: 50%;
+    height: 51%;
     cursor: pointer;
 }
 #user-card-btn p:hover{
@@ -101,33 +101,25 @@ img{
 }
 .work{
     grid-area: work;
-    background-color: #ff7418 ;
+    background-color: hsl(15, 100%, 70%) ;
 }
 .play{ 
     grid-area: play;
-    background-color: #1ec3f5 ;
+    background-color: hsl(195, 74%, 62%);
 }
 .study{
     grid-area: study;
-    background-color: rgb(255, 41, 41) ;
+    background-color: hsl(348, 100%, 68%);
 }
 .exercise{
     grid-area: exercise;
-    background-color: rgb(83, 248, 83) ;
+    background-color: hsl(145, 58%, 55%) ;
 }
 .social{
     grid-area: social;
-    background-color: #7F00FF;
+    background-color: hsl(264, 64%, 52%);
 }
 .self-care{
     grid-area: self-care;
-    background-color: rgb(255, 255, 95) ;
+    background-color: hsl(43, 84%, 65%) ;
 }
-
-
-
-/* font-color-purple: #CCCCFF;
-    font-color-purple-user: #5D3FD3;
-    font-color-white: #FAFAFA
-    background-blue-hover: #5858b4;
-    */
