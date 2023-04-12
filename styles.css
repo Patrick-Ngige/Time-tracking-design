@@ -3,31 +3,28 @@
     font-size: 62.5%;
     box-sizing: border-box;
 }
-
+body{
+    background-color: hsl(226, 67%, 14%);
+    overflow: hidden;
+}
 img{
     width: 45% ;
     height: auto;
     border: 3px solid #FAFAFA ;
     border-radius: 50%;
 }
-.main-container{
-    background-color: hsl(226, 67%, 14%);
-    height: 100vh;
-    width: 80%;
-    border-radius: 10px;
-    margin: 10% 10% 10% 10%;
-}
 .grid-container{
+    background-color: hsl(226, 67%, 14%);
+    background-size: cover;
     display: grid;
-    grid-template-columns: 170px 1fr 1fr 1fr;
+    grid-template-columns: 270px 1fr 1fr 1fr;
     grid-template-rows: 35% 35%;
     grid-template-areas: 
     'user-card work play study'
     'user-card exercise social self-care';
     gap: 1rem;
-    width: 50%;
-    margin: 5%;
-    padding: 13% 10% 10% 18%;
+    width: 100%;
+    padding: 5% 10% 0 10%;
     color: #FAFAFA;
 
 }
@@ -36,10 +33,11 @@ img{
     border-radius: 20px ;
 }
 #user-card-top{
-    background-color: hsl(264, 64%, 52%);
+    height: 65%;
+    background-color: hsl(246, 80%, 60%);
     border-radius: 20px;
     font-size: 3rem;
-    padding: 0.75em;
+    padding: 0.75em 0.75em 0.75em 2em;
     position: relative;
     z-index: 2;
 } 
@@ -58,25 +56,34 @@ img{
 #user-card-btn{
     background-color: hsl(235, 46%, 20%);
     border-radius: 1.6rem;
-    padding: 3em 2em 1em 2em;
-    font-size: 1.8rem;
+    padding: 2em 2em 1em 2.7em;
+    font-size: 2.5rem;
     position: relative;
     top: -2.6rem;
-    height: 54%;
+    height: 43%;
     cursor: pointer;
 }
-#user-card-btn p:hover{
+#user-card-btn p{
     color: #5858b4;
+    
+}
+#user-card-btn span{
+    color: #FAFAFA;
+    font-size: 1.6rem;
+}
+#user-card-btn p:hover{
+    color: #FAFAFA;
 }
 .grid-item-parent{
     border-radius: 1.6rem;
+    margin-top: 10px;
 }
 .grid-item-parent img{
-    width: 40px;
+    width: 60px;
     max-height: 23%;
     border: none;
     margin-bottom: -40px;
-    margin-left: 70px;
+    margin-left: 150px;
 }
 .grid-item{
     position: relative;
@@ -84,7 +91,6 @@ img{
     bottom: -21%;
     background-color: hsl(235, 46%, 20%) ;
     border-radius: 1.6rem;
-
 }
 .grid-item-row1{
     display: flex;
@@ -94,7 +100,7 @@ img{
     padding: 0.5em 1.5em ;
 }
 .grid-item-row1 p{
-    font-size: 11px;
+    font-size: 15px;
 }
 .grid-item-row2{
     font-size: 4rem;
@@ -105,7 +111,7 @@ img{
     width: 5px;
 }
 .grid-item-row2 span{
-    font-size: 0.9rem;
+    font-size: 1rem;
     display: block;
     opacity: 0.6;
     margin-top: 1rem;
